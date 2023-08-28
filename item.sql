@@ -1,6 +1,6 @@
 INSERT INTO `items` (`name`, `label`) VALUES
-('legnia', 'Legnia'),
-('legnia2', 'Legnia Processata'),
+('legnia', 'Legna'),
+('legnia2', 'Legna Processata'),
 ('arancia', 'Arancia'),
 ('gallina', 'Gallina'),
 ('gallina2', 'Gallina Bollita'),

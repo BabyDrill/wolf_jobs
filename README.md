@@ -7,6 +7,7 @@ Discord: https://discord.gg/yjPGt2YMcg
 
 ## **Dependencies**
 - oxmysql
+- gridsystem
 - esx
 
 ## **Installation**

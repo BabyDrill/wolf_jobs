@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+    <link rel="mask-icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1012816163652251649/1012816397878964396/WD.png" color="#111">
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/1012816163652251649/1012816397878964396/WD.png">
+    <link rel="apple-touch-icon" type="image/png" href="https://cdn.discordapp.com/attachments/1012816163652251649/1012816397878964396/WD.png">
+    <title>Wolf Menu Work</title>
+    <link rel="stylesheet" href="wolf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://static.fontawesome.com/css/fontawesome-app.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+  </head>
+  <body translate="no">
+   <div id="formContainer">
+      <div class="options">
+         <div class="option" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897210391867442/Pizzeria.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+               </div>
+               <div class="info">
+                  <div class="main">Pizzaiolo</div>
+                  <div class="sub">Stipendio Mensile: 1000$</div>
+                  <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                  <div class="sub">______________________________________</div>
+                  <button type="button" class="btn btn-dark" id="pizzaiolo" onclick="pizzaiolo()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+               </div>
+               
+            </div>
+         </div>
+         <div class="option active" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897209615921182/Boscaiolo.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+               </div>
+               <div class="info">
+                <div class="main">Boscaiolo</div>
+                <div class="sub">Stipendio Mensile: 1300$</div>
+                <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                <div class="sub">______________________________________</div>
+                <button type="button" class="btn btn-dark" id="boscaiolo" onclick="boscaiolo()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+             </div>
+      <!--Kural on Top-->
+            </div>
+         </div>
+         <div class="option" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897209125175376/Agricoltore.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+               </div>
+               <div class="info">
+                <div class="main">Agricoltore</div>
+                <div class="sub">Stipendio Mensile: 1000$</div>
+                <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                <div class="sub">______________________________________</div>
+                <button type="button" class="btn btn-dark" id="Agricoltore" onclick="agricoltore()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+             </div>
+            </div>
+         </div>
+         <div class="option" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897209905315920/macellaio.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+               </div>
+               <div class="info">
+                <div class="main">Macellaio</div>
+                <div class="sub">Stipendio Mensile: 1500$</div>
+                <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                <div class="sub">______________________________________</div>
+                <button type="button" class="btn btn-dark" id="Macellaio" onclick="macellaio()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+             </div>
+            </div>
+         </div>
+         <div class="option" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897210110857336/pescatore.jpg);">
+            <div class="shadow"></div>
+            <div class="label">
+               <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+               </div>
+               <div class="info">
+                  <div class="main">Pescatore</div>
+                  <div class="sub">Stipendio Mensile: 1100$</div>
+                  <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                <div class="sub">______________________________________</div>
+                <button type="button" class="btn btn-dark" id="Pescatore" onclick="pesca()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+             </div>
+            </div>
+         </div>
+         <div class="option" style="--optionBackground:url(https://cdn.discordapp.com/attachments/944166721974054923/1076897210815500439/Postino.jpg);">
+          <div class="shadow"></div>
+          <div class="label">
+             <div class="icon">
+                <img src="https://cdn.discordapp.com/attachments/963899883201388594/1076462432848982126/WD.png">
+             </div>
+             <div class="info">
+                <div class="main">Postino</div>
+                <div class="sub">Stipendio Mensile: 1100$</div>
+                <div class="sub">Orario continuato settimanale, se vuoi <br>il lavoro conferma!</div>
+                <div class="sub">______________________________________</div>
+                <button type="button" class="btn btn-dark" id="Postino" onclick="postino()" style="color:white; background-color: grey;">Ottieni Lavoro</button>
+             </div>
+          </div>
+       </div>
+    </div>  
+   </div>
+
+   <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+      <script src="wolf.js" type="text/javascript"></script> 
+
+      <script>window.console = window.console || function(t) {};</script>
+      <script>
+          if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+          }
+      </script>
+      <script id="rendered-js">
+          $('.option').click(function () {
+          $('.option').removeClass('active');
+          $(this).addClass('active');
+          });
+      </script>
+  </body>
+</html> 
